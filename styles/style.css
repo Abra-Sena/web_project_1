@@ -56,10 +56,6 @@
   position: absolute;
 }
 
-.header__image {
-  width: 100%;
-}
-
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
 .header__square-pic {
   height: 568px;
@@ -163,7 +159,6 @@
   width: 1100px;
   left: auto;
   right: auto;
-  top: 100px;
   bottom: 100px;
 }
 
@@ -171,6 +166,7 @@
   display: flex;
   flex-direction: column;
   width: 250px;
+  border: 1px solid blue;
 }
 
 .digits__cell-heading {
@@ -197,6 +193,7 @@
   justify-content: space-between;
   align-items: stretch;
   margin-top: 60px;
+  border: 1px solid green;
 }
 
 .feyman {
@@ -247,103 +244,85 @@
 }
 
 .kaufman {
-  padding-top: 90px;
   display: flex;
   flex-direction: column;
+  align-items: center;
   background-color: black;
   color: white;
   overflow: hidden;
+}
+
+.kaufman__title_theme_dark {
+  width: 60%;
+  margin-top: 90px;
+  line-height: 69px;
+  font-size: 60px;
+  font-weight: bold;
+  text-align: center;
+  z-index: 1;
+}
+
+.kaufman__subtitle_theme_dark {
+  width: 60%;
+  margin-top: 20px;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+  z-index: 1;
+}
+
+.kaufman__table_theme_dark {
+  display: flex;
+  align-items: stretch;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 90px;
+}
+
+.kaufman__table-row {
+  display: flex;
+  flex-direction: row;
 }
 
 .kaufman__triangle {
   height: 877px;
   width: 877px;
   right: -210px;
-  padding-bottom: 90px;
   position: absolute;
-  vertical-align: text-top;
   z-index: 0;
 }
 
-.kaufman__title_theme_dark {
-  width: 60%;
-  text-align: center;
-  top: 0;
-  margin-left: auto;
-  margin-right: auto;
-  line-height: 69px;
-  font-size: 60px;
-  font-weight: bold;
-  border: 1px solid greenyellow;
-  z-index: 1;
-}
-
-.kaufman__subtitle_theme_dark{
-  width: 60%;
-  margin-top: 20px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-  border: 1px solid blueviolet;
-  z-index: 1;
-}
-
-.kaufman__table_theme_dark {
-  display: flex;
-  flex-direction: column;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 90px;
-  z-index: 1;
-  border: 1px solid blue;
-}
-
-.kaufman__table-row {
-  display: flex;
-  justify-content: space-between;
-  margin-left: auto;
-  margin-right: auto;
-  z-index: 1;
-  border: 2px solid sienna;
-}
-
-/* including elements with key-value modifiers */
-.table__cell_theme_dark {
+.table_cell_theme_dark {
   width: 200px;
-  color: white;
-  margin-right: 0;
   margin-top: 80px;
-  border: 1px solid rgb(15, 187, 178);
+  z-index: 1;
 }
 
 .table_heading_theme_dark {
-  border: 1px solid yellow;
+  margin-bottom: 20px;
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
+  z-index: 1;
 }
 
 .table_text_theme_dark {
-  margin-top: 20px;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  border: 1px solid green;
+  z-index: 1;
 }
 
 .footer {
   min-height: 350px;
-  display: flex;
-  justify-content: center;
   flex-basis: 711px;
   padding-top: 60px;
   padding-bottom: 40px;
+  display: flex;
+  justify-content: center;
   background-color: black;
   color: white;
-  border: 2px solid blue;
 }
 
 .footer__author {
@@ -358,7 +337,6 @@
   display: flex;
   justify-content: space-between;
   width: 90%;
-  border: 1px solid red;
 }
 
 .footer__column-heading {
@@ -383,18 +361,15 @@
   flex-direction: column;
   justify-content: space-between;
   width: 50%;
-  border: 1px solid yellow;
 }
 
 .footer__column_content_info {
   display: flex;
   flex-direction: column;
-  border: 1px solid sienna;
 }
 
 .footer__column_content_social {
   z-index: 1;
-  border: 1px solid blueviolet;
 }
 
 .footer__social-icon {
