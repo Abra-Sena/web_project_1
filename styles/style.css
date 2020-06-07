@@ -14,8 +14,11 @@
   min-height: 600px;
   max-height: 756px;
   /* parameters for the header section */
+  position: relative;
   display: flex;
   justify-content: space-between;
+  overflow: hidden;
+  background-color: rgb(177, 177, 177);
 }
 
 .header__title {
@@ -49,11 +52,12 @@
 }
 
 .header__main-illustration {
+  position: absolute;
   height: 608px;
   width: 765px;
   bottom: 0;
   right: 0;
-  position: absolute;
+  z-index: 2;
 }
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
@@ -64,7 +68,7 @@
   position: absolute;
   top: 64px;
   right: 0;
-  z-index: -1;
+  z-index: 1;
 }
 
 .logo {
@@ -76,6 +80,11 @@
   width: 154px;
   top: 30px;
   left: 64px;
+}
+
+.logo_place_footer {
+  height: 35px;
+  width: 183px;
 }
 
 .description {
@@ -154,6 +163,7 @@
 .digits__table {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: stretch;
   width: 1100px;
@@ -165,8 +175,8 @@
 .digits__cell {
   display: flex;
   flex-direction: column;
+  list-style-type: none;
   width: 250px;
-  border: 1px solid blue;
 }
 
 .digits__cell-heading {
@@ -193,45 +203,45 @@
   justify-content: space-between;
   align-items: stretch;
   margin-top: 60px;
-  border: 1px solid green;
 }
 
 .feyman {
   height: 790px;
-  width: auto;
+  width: 100%;
   display: flex;
-  border: 1px solid blueviolet;
+  position: relative;
+  background-color: #aca9a9;
 }
 
 .feyman__title {
   margin-top: 100px;
   width: 775px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
   line-height: 1.15;
   font-size: 120px;
   font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .feyman__subtitle {
   margin-top: 70px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .feyman__link {
   height: 50%;
   right: 48px;
-  position: absolute;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
   text-decoration: none;
+  position: absolute;
 }
 
 .feyman__image {
@@ -244,6 +254,7 @@
 }
 
 .kaufman {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -297,8 +308,8 @@
   width: 200px;
   margin-top: 80px;
   z-index: 1;
+  list-style-type: none;
 }
-
 .table_heading_theme_dark {
   margin-bottom: 20px;
   line-height: 1.15;
@@ -344,16 +355,20 @@
   line-height: 45px;
   font-size: 18px;
   font-weight: bold;
-  z-index: 1;
 }
 
 .footer__column-links {
-  padding-bottom: 18px;
+  padding-left: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
+  color: white;
+  list-style-type: none;
   text-decoration: none;
-  z-index: 1;
+}
+
+.footer__column-links:last-of-type{
+  padding-bottom: 16px;
 }
 
 .footer__column_content_copyright {
@@ -369,16 +384,17 @@
 }
 
 .footer__column_content_social {
-  z-index: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer__social-icon {
-  padding-top: 20px;
-  padding-bottom: 18px;
-  z-index: 1;
+  height: 16px;
+  width: 16px;
+  color: white;
 }
 
-.logo_place_footer {
-  height: 35px;
-  width: 183px;
+.footer__social-icon img {
+  display: inline-block;
+  margin-right: 10px;
 }
