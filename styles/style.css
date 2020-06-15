@@ -290,6 +290,7 @@
   min-height: 350px;
   padding: 60px 0 40px;
   box-sizing: border-box;
+  display: flex;
   background-color: #1f1f1f;
   color: white;
 }
@@ -311,7 +312,7 @@
   width: 90%;
   display: flex;
   justify-content: space-between;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .footer__column {
