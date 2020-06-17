@@ -2,7 +2,7 @@
 
 ##I'm taking this course with Practicum with Yandex
 
-Project 1 consist in a single page website which has 6 different blocks
+**Project 1** consist in a single page website which has 6 different blocks
 Only *HTML* and *CSS* where used in this first project
 
 The following are covered:
@@ -12,7 +12,7 @@ The following are covered:
 * Positining elements: flow and static, relative, absolute fixed, z-index.
 * File structure and paths.
 
-Project 2
+**Project 2**
 
 The following are covered:
 * Adding fonts to a web page.
