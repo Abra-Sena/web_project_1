@@ -1,0 +1,7 @@
+.khan__container {
+  /*bottom and position values needed to cut off the bok pic at the end of the page*/
+  bottom: -10px;
+  width: 80%;
+  margin: auto;
+  position: relative;
+}

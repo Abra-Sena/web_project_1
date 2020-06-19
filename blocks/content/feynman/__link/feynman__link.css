@@ -8,3 +8,7 @@
   text-decoration: none;
   position: absolute;
 }
+
+.feynman__link:hover {
+  opacity: .5;
+}

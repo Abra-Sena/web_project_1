@@ -1,3 +1,6 @@
+/*adding keygframes to the blue square in header*/
+@import url(../../rotation/rotation.css);
+
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
 .header__square-pic {
   height: 568px;
@@ -6,6 +9,7 @@
   right: 0;
   z-index: -2;
   transform: rotate(-15deg);
+  animation: rotation 20s linear infinite;
   background-color: #2f80ed;
   position: absolute;
 }
