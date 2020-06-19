@@ -7,6 +7,5 @@
 .cards__item {
   margin-right: 100px;
   list-style-type: none;
-  border: 1px solid green;
+  flex: 0 0 30%;
 }
-

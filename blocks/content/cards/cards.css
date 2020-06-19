@@ -11,6 +11,6 @@
   padding: 0;
   margin: auto;
   display: flex;
-  flex-wrap: row wrap;
-  border: 1px solid red;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
