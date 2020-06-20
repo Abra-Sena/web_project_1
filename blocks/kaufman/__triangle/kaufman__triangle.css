@@ -1,9 +1,6 @@
-/*adding keygframes to the blue square in header*/
-@import url(../../rotation/rotation.css);
-
 .kaufman__triangle {
   position: absolute;
-  background-image: url(../../../../images/kaufman-triangle.svg);
+  background-image: url(../../../images/kaufman-triangle.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right;

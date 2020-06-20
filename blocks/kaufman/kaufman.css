@@ -1,0 +1,16 @@
+/*adding keyframes to the blue square in header*/
+@import url(../rotation/rotation.css);
+
+@import url(./__triangle/kaufman__triangle.css);
+
+.kaufman {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1f1f1f;
+  color: white;
+  overflow: hidden;
+  padding: 90px 0;
+  z-index: 1;
+}

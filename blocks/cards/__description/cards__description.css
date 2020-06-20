@@ -1,8 +1,7 @@
 .cards__description {
+  margin-bottom: 0;
   line-height: 23px;
   font-size: 18px;
   font-weight: normal;
-  align-content: center;
   text-align: center;
-  word-wrap: break-word;
 }

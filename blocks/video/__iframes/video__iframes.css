@@ -2,7 +2,6 @@
   bottom: -50px;
   margin-top: 50px;
   display: flex;
-  margin: auto;
   list-style-type: none;
   position: relative;
   /*position and bottom value place the video on top of the border between its parent and next section*/
