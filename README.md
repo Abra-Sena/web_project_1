@@ -4,6 +4,12 @@
 
 ##Submission Notes
 
+###**Fourth commit**
+* Section **Techniques** is conform to brief, all cards__item are wrap in cards with 3 in the first row and 2 in the second.
+* File directory fixed accordingly to BEM: [projectRoot]/page/index.css and [projectRoot]/vendor/normalize.css.
+* Class rotation added in HTML to fix animation on header__square-pic and kaufman__triangle
+
+
 ###**Description**
   - Change file structure according to BEM
   - Import child's style file to parent's style file
@@ -12,7 +18,7 @@
   - Use of iframe and Youtube API to embed videos in a web page
 
 ###**Plan**
-  - Need to fit cards__item in cards in techniques section 
+  - Need to fit cards__item in cards in techniques section
 
 
 **Project 2**
@@ -24,7 +30,7 @@ The following are covered:
 * Files paths and organizing BEM files (block, element and modifier structure, global styles, connect necessary blocks to a web page, connect third-party code).
 
 
-**Project 1** 
+**Project 1**
   - A single page website which has 6 different blocks
   - Only *HTML* and *CSS* where used in this first project
 
