@@ -1,5 +1,24 @@
 #My first steps in web development
 
+##**Complete Project**
+
+###**_Description_**
+* A single page website with 11 different sections.
+* The header section has a background image and a sqaure blue pic with a 360 degrees infinite rotation animation.
+* Two sections has a table with 2 rows, the first one with 4 columns and the second with 5 columns.
+* The table with 5 columns has a blue triangle in the background with a 360 degrees infinite rotation animation.
+
+###**_The following where covered_**
+* Flex containers and items.
+* Semantic tags for sections.
+* Use of <iframe> tag to embed YouTube videos.
+* BEM Methodology use to name section's elements and modifiers to be able to re-use blocks.
+* Files paths and organizing BEM files.
+* Styling using pseudo-elements and attribute selectors.
+
+###[Project is accessible here](https://abra-sena.github.io/web_project_1/)
+
+
 #**Project 2**
 
 ##Submission Notes
